@@ -1,0 +1,33 @@
+{
+  "topic": "",
+  "keywords": [],
+  "days_back": 1,
+  "max_articles": 2,
+  "output_dir": "reports",
+  "max_chars_per_article": 8000,
+  "request_timeout": 20,
+  "feeds": [
+    {
+      "name": "The Texas Tribune",
+      "url": "https://feeds.texastribune.org/feeds/main/"
+    },
+    {
+      "name": "KXAN Austin",
+      "url": "https://www.kxan.com/feed/"
+    },
+    {
+      "name": "Utility Dive",
+      "url": "https://www.utilitydive.com/feeds/news/"
+    },
+    {
+      "name": "E&E News",
+      "url": "https://www.eenews.net/articles/feed/"
+    }
+  ],
+  "google_news": true,
+  "llm": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "model": "baidu/ernie-5.5-flash-preview:free",
+    "max_output_tokens": 50000
+  }
+}

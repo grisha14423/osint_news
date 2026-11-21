@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Logs and generated OSINT reports
+*.log
+osint/reports/
+osint/app.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+reports/
